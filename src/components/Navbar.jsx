@@ -7,7 +7,7 @@ import Link from "next/link";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import { doc, getDoc } from "firebase/firestore";
 import { app, firestore } from "@/lib/firebase";
-import logo from "@/images/Logo_APSI.png";
+import logo from "@/images/logo_APSI.png";
 const menuItems = [
   { name: "Home", href: "/" },
   { name: "Tentang Kami", href: "/tentang-kami" },

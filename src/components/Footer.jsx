@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import logo from "@/images/Logo_APSI.png";
+import logo from "@/images/logo_APSI.png";
 
 const Footer = () => {
   const offices = [
