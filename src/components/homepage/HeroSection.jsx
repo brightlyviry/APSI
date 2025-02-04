@@ -4,8 +4,9 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { FaRecycle, FaLightbulb } from "react-icons/fa";
 import FloatingParticles from "./FloatingParticles";
+
 const DesktopHero = () => (
-  <section className="hidden md:flex relative w-full min-h-screen items-center justify-center bg-gradient-to-br from-[#0a1a2f] via-[#1a3b5d] to-[#2d704f] overflow-hidden">
+  <section className="hidden md:flex relative w-full min-h-[120vh] items-center justify-center bg-gradient-to-br from-[#0a1a2f] via-[#1a3b5d] to-[#2d704f] overflow-hidden">
     <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-20 mix-blend-soft-light" />
     <div className="absolute inset-0 bg-gradient-to-b from-[#2EA4E0]/10 to-[#8DC43F]/10" />
     <FloatingParticles />

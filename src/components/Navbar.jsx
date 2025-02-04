@@ -15,7 +15,7 @@ const menuItems = [
   { name: "Koperasi APSI Jaya Mandiri", href: "/koperasi" },
   { name: "Berita & Blog", href: "/blog" },
   { name: "Pustaka", href: "/pustaka" },
-  { name: "Keanggotaan", href: "/registrasi" }
+  { name: "Keanggotaan", href: "/keanggotaan" }
 ];
 export default function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
